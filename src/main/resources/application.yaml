@@ -1,0 +1,21 @@
+logging:
+  level:
+    root: DEBUG  # 默认的全局日志级别
+    org.springframework.web: debug # web相关的日志级别
+  file:
+    path: /www/wwwroot/weblog
+
+translator:
+  tencent:
+    secret-id: aaaaa
+    secret-key: bbbb
+  xfyun:
+    APPID:
+    APISecret:
+    APIKey:
+  baidu:
+    APP_ID:
+    SECURITY_KEY:
+  youdao:
+    APP_KEY:
+    APP_SECRET:
